@@ -1,0 +1,8 @@
+<h1>New sign up page</h1>
+
+<%= form_with model: @post do |form| %>
+  <%= form.number_field(:user_id, value: current_user.id) %>
+  <%= form.text_field(:title, placeholder: "Title:") %>
+  <%= form.text_field(:body, placeholder: "Body:") %>
+  <%= form.submit "Submit" %>
+<% end %>

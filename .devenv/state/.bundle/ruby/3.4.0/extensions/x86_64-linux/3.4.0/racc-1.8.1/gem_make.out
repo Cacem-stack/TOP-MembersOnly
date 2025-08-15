@@ -1,0 +1,18 @@
+current directory: /home/cac/dev/rails/TOP-MembersOnly/.devenv/state/.bundle/ruby/3.4.0/gems/racc-1.8.1/ext/racc/cparse
+/nix/store/ffab2776ms3n4akdgxqwh5w04jh4hw3i-ruby-3.4.5/bin/ruby extconf.rb
+creating Makefile
+
+current directory: /home/cac/dev/rails/TOP-MembersOnly/.devenv/state/.bundle/ruby/3.4.0/gems/racc-1.8.1/ext/racc/cparse
+make DESTDIR\= sitearchdir\=./.gem.20250815-58407-oir91b sitelibdir\=./.gem.20250815-58407-oir91b clean
+
+current directory: /home/cac/dev/rails/TOP-MembersOnly/.devenv/state/.bundle/ruby/3.4.0/gems/racc-1.8.1/ext/racc/cparse
+make DESTDIR\= sitearchdir\=./.gem.20250815-58407-oir91b sitelibdir\=./.gem.20250815-58407-oir91b
+compiling cparse.c
+linking shared-object racc/cparse.so
+
+current directory: /home/cac/dev/rails/TOP-MembersOnly/.devenv/state/.bundle/ruby/3.4.0/gems/racc-1.8.1/ext/racc/cparse
+make DESTDIR\= sitearchdir\=./.gem.20250815-58407-oir91b sitelibdir\=./.gem.20250815-58407-oir91b install
+install -c -p -m 755 cparse.so ./.gem.20250815-58407-oir91b/racc
+
+current directory: /home/cac/dev/rails/TOP-MembersOnly/.devenv/state/.bundle/ruby/3.4.0/gems/racc-1.8.1/ext/racc/cparse
+make DESTDIR\= sitearchdir\=./.gem.20250815-58407-oir91b sitelibdir\=./.gem.20250815-58407-oir91b clean

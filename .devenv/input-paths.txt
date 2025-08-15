@@ -1,0 +1,7 @@
+/home/cac/dev/rails/TOP-MembersOnly/.devenv/flake.json
+/home/cac/dev/rails/TOP-MembersOnly/.devenv.flake.nix
+/home/cac/dev/rails/TOP-MembersOnly/.env
+/home/cac/dev/rails/TOP-MembersOnly/devenv.local.nix
+/home/cac/dev/rails/TOP-MembersOnly/devenv.lock
+/home/cac/dev/rails/TOP-MembersOnly/devenv.nix
+/home/cac/dev/rails/TOP-MembersOnly/devenv.yaml

@@ -1,0 +1,19 @@
+current directory: /home/cac/dev/rails/TOP-MembersOnly/.devenv/state/.bundle/ruby/3.4.0/gems/stringio-3.1.7/ext/stringio
+/nix/store/ffab2776ms3n4akdgxqwh5w04jh4hw3i-ruby-3.4.5/bin/ruby extconf.rb
+checking for rb_io_mode_t in ruby/io.h... no
+creating Makefile
+
+current directory: /home/cac/dev/rails/TOP-MembersOnly/.devenv/state/.bundle/ruby/3.4.0/gems/stringio-3.1.7/ext/stringio
+make DESTDIR\= sitearchdir\=./.gem.20250815-58407-c71msn sitelibdir\=./.gem.20250815-58407-c71msn clean
+
+current directory: /home/cac/dev/rails/TOP-MembersOnly/.devenv/state/.bundle/ruby/3.4.0/gems/stringio-3.1.7/ext/stringio
+make DESTDIR\= sitearchdir\=./.gem.20250815-58407-c71msn sitelibdir\=./.gem.20250815-58407-c71msn
+compiling stringio.c
+linking shared-object stringio.so
+
+current directory: /home/cac/dev/rails/TOP-MembersOnly/.devenv/state/.bundle/ruby/3.4.0/gems/stringio-3.1.7/ext/stringio
+make DESTDIR\= sitearchdir\=./.gem.20250815-58407-c71msn sitelibdir\=./.gem.20250815-58407-c71msn install
+install -c -p -m 755 stringio.so ./.gem.20250815-58407-c71msn
+
+current directory: /home/cac/dev/rails/TOP-MembersOnly/.devenv/state/.bundle/ruby/3.4.0/gems/stringio-3.1.7/ext/stringio
+make DESTDIR\= sitearchdir\=./.gem.20250815-58407-c71msn sitelibdir\=./.gem.20250815-58407-c71msn clean

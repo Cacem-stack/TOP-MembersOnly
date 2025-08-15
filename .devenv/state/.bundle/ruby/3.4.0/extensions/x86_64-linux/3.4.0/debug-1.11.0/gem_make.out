@@ -1,0 +1,19 @@
+current directory: /home/cac/dev/rails/TOP-MembersOnly/.devenv/state/.bundle/ruby/3.4.0/gems/debug-1.11.0/ext/debug
+/nix/store/ffab2776ms3n4akdgxqwh5w04jh4hw3i-ruby-3.4.5/bin/ruby extconf.rb
+creating Makefile
+
+current directory: /home/cac/dev/rails/TOP-MembersOnly/.devenv/state/.bundle/ruby/3.4.0/gems/debug-1.11.0/ext/debug
+make DESTDIR\= sitearchdir\=./.gem.20250815-59634-5fpg7x sitelibdir\=./.gem.20250815-59634-5fpg7x clean
+
+current directory: /home/cac/dev/rails/TOP-MembersOnly/.devenv/state/.bundle/ruby/3.4.0/gems/debug-1.11.0/ext/debug
+make DESTDIR\= sitearchdir\=./.gem.20250815-59634-5fpg7x sitelibdir\=./.gem.20250815-59634-5fpg7x
+compiling debug.c
+compiling iseq_collector.c
+linking shared-object debug/debug.so
+
+current directory: /home/cac/dev/rails/TOP-MembersOnly/.devenv/state/.bundle/ruby/3.4.0/gems/debug-1.11.0/ext/debug
+make DESTDIR\= sitearchdir\=./.gem.20250815-59634-5fpg7x sitelibdir\=./.gem.20250815-59634-5fpg7x install
+install -c -p -m 755 debug.so ./.gem.20250815-59634-5fpg7x/debug
+
+current directory: /home/cac/dev/rails/TOP-MembersOnly/.devenv/state/.bundle/ruby/3.4.0/gems/debug-1.11.0/ext/debug
+make DESTDIR\= sitearchdir\=./.gem.20250815-59634-5fpg7x sitelibdir\=./.gem.20250815-59634-5fpg7x clean

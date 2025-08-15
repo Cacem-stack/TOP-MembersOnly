@@ -1,0 +1,18 @@
+current directory: /home/cac/dev/rails/TOP-MembersOnly/.devenv/state/.bundle/ruby/3.4.0/gems/websocket-driver-0.8.0/ext/websocket-driver
+/nix/store/ffab2776ms3n4akdgxqwh5w04jh4hw3i-ruby-3.4.5/bin/ruby extconf.rb
+creating Makefile
+
+current directory: /home/cac/dev/rails/TOP-MembersOnly/.devenv/state/.bundle/ruby/3.4.0/gems/websocket-driver-0.8.0/ext/websocket-driver
+make DESTDIR\= sitearchdir\=./.gem.20250815-58407-asvuf6 sitelibdir\=./.gem.20250815-58407-asvuf6 clean
+
+current directory: /home/cac/dev/rails/TOP-MembersOnly/.devenv/state/.bundle/ruby/3.4.0/gems/websocket-driver-0.8.0/ext/websocket-driver
+make DESTDIR\= sitearchdir\=./.gem.20250815-58407-asvuf6 sitelibdir\=./.gem.20250815-58407-asvuf6
+compiling websocket_mask.c
+linking shared-object websocket_mask.so
+
+current directory: /home/cac/dev/rails/TOP-MembersOnly/.devenv/state/.bundle/ruby/3.4.0/gems/websocket-driver-0.8.0/ext/websocket-driver
+make DESTDIR\= sitearchdir\=./.gem.20250815-58407-asvuf6 sitelibdir\=./.gem.20250815-58407-asvuf6 install
+install -c -p -m 755 websocket_mask.so ./.gem.20250815-58407-asvuf6
+
+current directory: /home/cac/dev/rails/TOP-MembersOnly/.devenv/state/.bundle/ruby/3.4.0/gems/websocket-driver-0.8.0/ext/websocket-driver
+make DESTDIR\= sitearchdir\=./.gem.20250815-58407-asvuf6 sitelibdir\=./.gem.20250815-58407-asvuf6 clean

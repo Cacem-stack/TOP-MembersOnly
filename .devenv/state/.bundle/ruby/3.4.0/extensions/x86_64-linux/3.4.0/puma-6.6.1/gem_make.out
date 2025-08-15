@@ -1,0 +1,42 @@
+current directory: /home/cac/dev/rails/TOP-MembersOnly/.devenv/state/.bundle/ruby/3.4.0/gems/puma-6.6.1/ext/puma_http11
+/nix/store/ffab2776ms3n4akdgxqwh5w04jh4hw3i-ruby-3.4.5/bin/ruby extconf.rb
+checking for pkg-config for openssl... ["-I/nix/store/b97gjl5zygaf6vzxsa1lf7jih8q4xi00-openssl-3.5.1-dev/include ", "-L/nix/store/lyl9yxxz8a3mlaxvm0jln6mglpbf2fha-openssl-3.5.1/lib", "-lssl -lcrypto"]
+──── Using OpenSSL pkgconfig (openssl.pc) ────
+checking for openssl/bio.h... yes
+
+──── Below are yes for 1.0.2 & later ────
+checking for DTLS_method() in openssl/ssl.h... yes
+checking for SSL_CTX_set_session_cache_mode(NULL, 0) in openssl/ssl.h... yes
+
+──── Below are yes for 1.1.0 & later ────
+checking for TLS_server_method() in openssl/ssl.h... yes
+checking for SSL_CTX_set_min_proto_version(NULL, 0) in openssl/ssl.h... yes
+
+──── Below is yes for 1.1.0 and later, but isn't documented until 3.0.0 ────
+checking for SSL_CTX_set_dh_auto(NULL, 0) in openssl/ssl.h... yes
+
+──── Below is yes for 1.1.1 & later ────
+checking for SSL_CTX_set_ciphersuites(NULL, "") in openssl/ssl.h... yes
+
+──── Below is yes for 3.0.0 & later ────
+checking for SSL_get1_peer_certificate() in openssl/ssl.h... yes
+
+checking for Random.bytes... yes
+creating Makefile
+
+current directory: /home/cac/dev/rails/TOP-MembersOnly/.devenv/state/.bundle/ruby/3.4.0/gems/puma-6.6.1/ext/puma_http11
+make DESTDIR\= sitearchdir\=./.gem.20250815-59634-iy77lp sitelibdir\=./.gem.20250815-59634-iy77lp clean
+
+current directory: /home/cac/dev/rails/TOP-MembersOnly/.devenv/state/.bundle/ruby/3.4.0/gems/puma-6.6.1/ext/puma_http11
+make DESTDIR\= sitearchdir\=./.gem.20250815-59634-iy77lp sitelibdir\=./.gem.20250815-59634-iy77lp
+compiling http11_parser.c
+compiling mini_ssl.c
+compiling puma_http11.c
+linking shared-object puma/puma_http11.so
+
+current directory: /home/cac/dev/rails/TOP-MembersOnly/.devenv/state/.bundle/ruby/3.4.0/gems/puma-6.6.1/ext/puma_http11
+make DESTDIR\= sitearchdir\=./.gem.20250815-59634-iy77lp sitelibdir\=./.gem.20250815-59634-iy77lp install
+install -c -p -m 755 puma_http11.so ./.gem.20250815-59634-iy77lp/puma
+
+current directory: /home/cac/dev/rails/TOP-MembersOnly/.devenv/state/.bundle/ruby/3.4.0/gems/puma-6.6.1/ext/puma_http11
+make DESTDIR\= sitearchdir\=./.gem.20250815-59634-iy77lp sitelibdir\=./.gem.20250815-59634-iy77lp clean
