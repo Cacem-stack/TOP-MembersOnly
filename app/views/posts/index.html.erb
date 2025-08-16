@@ -4,9 +4,15 @@
   <table>
     <% @posts.each do |post| %>
         <tr>
-          <td><%= post.user.username %></td>
+          <% if current_user && current_user.id == post.user_id %>
+            <td><%= post.user.username %></td>
+          <% end %>
           <td><%= post.title %></td>
           <td><%= post.body %></td>
+          <% if current_user && current_user.id == post.user_id %>
+            <td><%#= button_to "Destroy this post", post, data: { turbo_method: :delete } %></td>
+            <td><%= link_to 'Destroy', post, :data => {turbo_method: :delete}, :confirm => "Are you sure?" %></td>
+          <% end %>
         </tr>
     <% end %>
   </table>

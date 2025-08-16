@@ -11,12 +11,20 @@ class PostsController < ApplicationController
 
   def create
     @post = Post.new(user_params)
+    @post[:user_id] = current_user.id
 
     if @post.save
       redirect_to root_path
     else
       render :new, status: :unprocessable_entity
     end
+  end
+
+  def destroy
+    @post = Post.find(params[:id])
+    @post.destroy!
+
+    redirect_to root_path
   end
 
   private
